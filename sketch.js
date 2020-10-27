@@ -22,7 +22,7 @@ function preload(){
 }
 
 function setup(){
- createCanvas(600,300);
+ createCanvas(windowWidth, windowHeight);
   
   obstacleGroup = createGroup();
   bananaGroup = createGroup();
